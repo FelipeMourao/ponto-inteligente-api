@@ -19,8 +19,7 @@ public class Empresa implements Serializable {
 		
 	}
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	
 	public Long getId() {
 		return id;
 	}
